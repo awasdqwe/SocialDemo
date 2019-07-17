@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyToolBar">
+        <attr name="titleText" format="string|reference" />
+        <attr name="titleLeftText" format="string|reference" />
+        <attr name="titleLeftDrawable" format="reference" />
+        <attr name="titleRightText" format="string|reference" />
+        <attr name="titleRightDrawable" format="reference" />
+        <attr name="showBack" format="boolean|reference" />
+    </declare-styleable>
+
+</resources>

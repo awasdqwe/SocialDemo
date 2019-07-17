@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/half_transparent"
+    android:divider="@drawable/ll_divider"
+    android:orientation="vertical"
+    android:showDividers="middle">
+
+    <RelativeLayout
+        android:id="@+id/vg_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp49"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/dp8"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/dp8">
+
+        <EditText xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/et_comment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/dp20"
+            android:layout_toLeftOf="@+id/tv_pub"
+            android:textSize="@dimen/sp13"
+            android:background="@drawable/shape_oranglestroke"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/dp20"
+            android:paddingLeft="@dimen/dp20" />
+
+        <TextView
+            android:id="@+id/tv_pub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="发表"
+            android:textColor="#f09450"
+            />
+    </RelativeLayout>
+</FrameLayout>

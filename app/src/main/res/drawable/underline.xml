@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_focused="false">
+        <layer-list>
+            <!-- 连框颜色值 -->
+            <!--   <item>
+                   <shape>
+                       <solid android:color="@color/divider_color" />
+                   </shape>
+               </item>-->
+            <!-- 主体背景颜色值 -->
+
+            <item
+
+                android:top="44dp">
+                <shape>
+                    <solid android:color="#dddddd" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+ <!--   <item android:state_focused="true">
+        <layer-list>
+            &lt;!&ndash; 连框颜色值 &ndash;&gt;
+            &lt;!&ndash;   <item>
+                   <shape>
+                       <solid android:color="@color/divider_color" />
+                   </shape>
+               </item>&ndash;&gt;
+            &lt;!&ndash; 主体背景颜色值 &ndash;&gt;
+
+            <item
+
+                android:top="44dp">
+                <shape>
+                    <solid android:color="#ff8566" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>-->
+</selector>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.ljc.socialdemo.widget.MyToolBar
+        android:id="@+id/toolbar"
+        style="@style/TransculentToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleRightText="提交"
+        app:titleText="发布" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:paddingLeft="@dimen/dp15"
+        android:paddingRight="@dimen/dp15"
+        android:layout_marginBottom="@dimen/dp20"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/share_bg"
+            android:gravity="start"
+            android:minHeight="@dimen/dp200"
+            android:id="@+id/et_content"
+            android:padding="@dimen/dp5"
+            android:hint="请输入你要发布的内容"
+            android:text="" />
+
+        <!--最多200字-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/et_content"
+            android:layout_marginBottom="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:id="@+id/tv_count"
+            android:textColor="@color/gray"
+            android:layout_alignBottom="@+id/et_content"
+            android:text="1/2" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/grid_pics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:columnCount="4" />
+</LinearLayout>

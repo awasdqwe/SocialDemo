@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "news_photo": "http:\/\/files.huobanys.com\/group1\/M00\/00\/45\/ChvHbFl5tP6AaWJ1AADd3VAClsk291.jpg",
+      "multi_news_photo": [
+        "http:\/\/files.huobanys.com\/group1\/M00\/00\/45\/ChvHbFl5tP6AaWJ1AADd3VAClsk291.jpg"
+      ],
+      "material_id": "10000000000002|1|1501148411464302362",
+      "news_id": "1501148411464302362",
+      "news_url": "https:\/\/mainapp.huobanys.com\/userApi\/article_pagecontent_1501148411464302362_1501149249.html",
+      "desc": "伙伴医生",
+      "news_title": "孕期补碘，宝宝智商高",
+      "publish_time": "1501149405",
+      "channel_name": "母婴",
+      "news_type": "1",
+      "width": "100",
+      "height": "100"
+    }
+  ]
+}

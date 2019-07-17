@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColor">@color/black33</item>
+        <item name="android:editTextBackground">@null</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="toolbarNavigationButtonStyle">@style/ToolbarNavigationButtonStyle</item>
+    </style>
+
+    <style name="TransculentToolBar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <!--<item name="navigationIcon">@drawable/comm_icon_fanhui</item>-->
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:background">@color/white</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+        <item name="titleLeftDrawable">@drawable/comm_icon_fanhui</item>
+    </style>
+
+    <style name="ToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation"></style>
+
+    <style name="MineTextStyle" parent="UserInfoTextStyle">
+        <item name="android:drawableRight">@drawable/ico_gengduo</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/dp15</item>
+        <item name="android:layout_marginRight">@dimen/dp15</item>
+        <item name="android:paddingBottom">@dimen/dp10</item>
+        <item name="android:paddingTop">@dimen/dp10</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/sp16</item>
+    </style>
+
+
+    <style name="UserInfoTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/dp15</item>
+        <item name="android:layout_marginRight">@dimen/dp15</item>
+        <item name="android:paddingBottom">@dimen/dp10</item>
+        <item name="android:paddingTop">@dimen/dp10</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/sp16</item>
+    </style>
+
+    <style name="UserInfoGengDuoTextStyle" parent="UserInfoTextStyle">
+        <item name="android:drawableRight">@drawable/ico_gengduo</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.ljc.socialdemo.widget.MyToolBar
+        android:layout_width="match_parent"
+        style="@style/TransculentToolBar"
+        android:id="@+id/toolbar"
+        app:titleText="搜索详情"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/dp10"
+        android:layout_height="wrap_content"
+        android:background="@drawable/share_bg">
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:hint="请输入你要搜索的内容"
+            android:paddingBottom="@dimen/dp5"
+            android:paddingLeft="@dimen/dp10"
+            android:paddingRight="@dimen/dp10"
+            android:paddingTop="@dimen/dp5"
+            android:text=""
+            android:textSize="@dimen/sp14" />
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp5"
+            android:src="@drawable/ico_input_search" />
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp10"
+        android:layout_height="match_parent"
+        layout="@layout/common_recyclerview"/>
+</LinearLayout>

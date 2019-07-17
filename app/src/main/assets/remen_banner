@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "news_photo": "http:\/\/files.huobanys.com\/group1\/M00\/00\/76\/ChvHbFsD4z6AQN2HAAK-LwWl4Gw764.png",
+      "multi_news_photo": [
+        "http:\/\/files.huobanys.com\/group1\/M00\/00\/76\/ChvHbFsD4z6AQN2HAAK-LwWl4Gw764.png"
+      ],
+      "material_id": "0|1|1526981533491904016",
+      "news_id": "1526981533491904016",
+      "news_url": "https:\/\/mainapp.huobanys.com\/userApi\/article_pagecontent_1526981533491904016_1526987846.html",
+      "desc": "伙伴医生",
+      "news_title": "伙伴医生董事长郝信星：做医生和患者的“伙伴”",
+      "publish_time": "1526987860",
+      "channel_name": "热门",
+      "news_type": "1",
+      "width": "100",
+      "height": "100"
+    },
+    {
+      "news_photo": "http:\/\/files.huobanys.com\/group1\/M00\/00\/45\/ChvHbFl5t0eABbjuAAFZ3JDgSTE803.jpg",
+      "multi_news_photo": [
+        "http:\/\/files.huobanys.com\/group1\/M00\/00\/45\/ChvHbFl5t0eABbjuAAFZ3JDgSTE803.jpg"
+      ],
+      "material_id": "0|1|1501149001658680712",
+      "news_id": "1501149001658680712",
+      "news_url": "https:\/\/mainapp.huobanys.com\/userApi\/article_pagecontent_1501149001658680712_1501149337.html",
+      "desc": "伙伴医生",
+      "news_title": "你的“手”不止掌握命运，还有饭量",
+      "publish_time": "1501149389",
+      "channel_name": "热门",
+      "news_type": "1",
+      "width": "100",
+      "height": "100"
+    },
+    {
+      "news_photo": "http:\/\/files.huobanys.com\/group1\/M00\/00\/66\/ChvHbFpEmGuAalfCAAER9X_904s379.jpg",
+      "multi_news_photo": [
+        "http:\/\/files.huobanys.com\/group1\/M00\/00\/66\/ChvHbFpEmGuAalfCAAER9X_904s379.jpg"
+      ],
+      "material_id": "0|1|1514445181297433337",
+      "news_id": "1514445181297433337",
+      "news_url": "https:\/\/mainapp.huobanys.com\/userApi\/article_pagecontent_1514445181297433337_1514445229.html",
+      "desc": "伙伴医生",
+      "news_title": "为了性爱，快减肥吧",
+      "publish_time": "1514445252",
+      "channel_name": "热门",
+      "news_type": "1",
+      "width": "100",
+      "height": "100"
+    }
+  ]
+}
